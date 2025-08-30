@@ -11,3 +11,7 @@ local map = vim.keymap.set
 
 -- Map <leader>h in normal mode to show hover docs
 map("n", "gh", vim.lsp.buf.hover, { desc = "LSP Hover" })
+-- open Neo-tree at the shell's cwd
+vim.keymap.set("n", "<leader>e", function()
+  require("neo-tree.command").execute({ toggle = true, dir = vim.loop.cwd() })
+end, { desc = "Explorer NeoTree (cwd)" })
