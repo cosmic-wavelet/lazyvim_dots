@@ -10,7 +10,7 @@ vim.keymap.set("i", "jj", "<ESC>vg~a", opts)
 vim.keymap.set("n", "<leader>yy", "<cmd>CopyFile<CR>", {
   desc = "Copy entire file to clipboard",
 })
-vim.keymap.set("v", "<leader>yy", '"+y', { desc = "Yank selection to system clipboard" })
+vim.keymap.set("v", "<leader>y", '"+y', { desc = "Yank selection to system clipboard" })
 local map = vim.keymap.set
 
 -- Map <leader>h in normal mode to show hover docs
