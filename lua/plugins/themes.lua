@@ -1,7 +1,7 @@
 return {
   { "EdenEast/nightfox.nvim" },
   { "eldritch-theme/eldritch.nvim" },
-  { "nyoom-engineering/oxocarbon.nvim" },
+  --{ "nyoom-engineering/oxocarbon.nvim" },
   { "sainnhe/sonokai" },
   { "navarasu/onedark.nvim" },
   {

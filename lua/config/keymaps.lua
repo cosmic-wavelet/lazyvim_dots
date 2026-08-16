@@ -4,7 +4,7 @@
 local opts = { noremap = true, silent = true }
 vim.keymap.set("i", "ii", "<ESC>", opts)
 vim.keymap.set("i", "<C-t>", "<Nop>", opts)
-vim.keymap.set("i", "<C-k>", "<Nop>", opts)
+-- vim.keymap.set("i", "<C-k>", "<Nop>", opts)
 vim.keymap.set("t", "ii", "<C-\\><C-n>", opts)
 vim.keymap.set("i", "jj", "<ESC>vg~a", opts)
 vim.keymap.set("n", "<leader>yy", "<cmd>CopyFile<CR>", {

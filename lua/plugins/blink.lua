@@ -8,6 +8,7 @@ return {
         default = { "lsp", "path", "buffer", "snippets" },
       },
       keymap = {
+        ["<Tab>"] = {},
         ["<C-t>"] = {
           function(cmp)
             -- 1. If completion menu isn’t up, do nothing
